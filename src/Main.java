@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-
+//Aletaração só pra commitar
         System.out.println("********************************");
         System.out.println("Welcome to the Password Generator");
 

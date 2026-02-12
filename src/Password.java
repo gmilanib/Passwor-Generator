@@ -16,7 +16,7 @@ private String pwd = "";
     public int getPwdLenght(){
         return this.pwdLenght;
     }
-
+//mudança para commitar só
     public String generatePwd(){
         Random rdm = new Random();
 
