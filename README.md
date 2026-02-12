@@ -1,2 +1,2 @@
-# Passwor-Generator
+# Password-Generator
 Java password generator
