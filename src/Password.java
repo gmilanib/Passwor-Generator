@@ -21,9 +21,10 @@ private String pwd = "";
         Random rdm = new Random();
 
         for (int i = 0; i < pwdLenght; i++){
-            char tmp = CHARACTERES.charAt(rdm.nextInt(pwdLenght));
+            int number = rdm.nextInt(73);
+            char tmp = CHARACTERES.charAt(number);
 
-            pwd.concat(String.valueOf(tmp));
+            pwd += tmp;
 
 
         }
