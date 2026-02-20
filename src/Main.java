@@ -20,6 +20,8 @@ public class Main {
 
         System.out.println(password.generatePwd());
 
+        sc.nextLine();
+
 
 sc.close();
         }
