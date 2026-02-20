@@ -19,9 +19,11 @@ public class Main {
         Password password = new Password(passwordLenght);
 
         System.out.println(password.generatePwd());
-
-        sc.nextLine();
-
+            try {
+                Thread.sleep(60000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
 
 sc.close();
         }
